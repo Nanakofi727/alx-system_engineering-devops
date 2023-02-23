@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-#displaying files in current directory
-for ((n=0; n<1;n++))
-do
-    find ./* | cut -d "-" -f2 | cut -d "/" -f2
+# This script displays the content of the current directory in list format
+# Only displays the part of the name after the first dash
+
+mylist=$(ls)
+
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
 done

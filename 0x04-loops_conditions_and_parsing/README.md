@@ -1,1 +1,1 @@
-Loops, Conditions and Parsing
+# Solution to tasks on Loops, conditions and parsing
